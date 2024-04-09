@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link href="/styles/output.css" rel="stylesheet">
+    <link rel="icon" href="./logo.png">    
+</head>
+<body>
+
+    <div class="h-screen bg-gray-950 flex flex-col justify-center items-center">
+
+        <div class="flex flex-col items-center justify-center p-12">
+            <h1 class="text-4xl text-white select-none transition hover:scale-110 font-bold p-5 animate-fade-in-1s">Tic Tac Toe</h1>
+            <h2 class="texy-[3rem] text-white opacity-70 select-none transition hover:scale-105 animate-fade-in-2s">by Zeraphim</h2>
+        </div>
+
+
+        <div id="tictactoe_layout" class="h-[51vh] w-[51vh] grid grid-cols-3 animate-fade-in-3s">
+
+        </div>
+
+        <div class="flex flex-col items-center justify-center p-12">
+            <h2 id="statusText" class="text-[1rem] text-white opacity-85 p-8 select-none transition hover:scale-125 animate-fade-in-2s">Player O's Turn</h2>
+            
+            <div class="flex flex-row items-center justify-center gap-9 animate-fade-in-2s">
+                <button id="prevBtn" class="transition hover:bg-teal-500 text-white font-bold py-2 px-4 rounded-full hidden">👈</button>
+                <button id="resetBtn" class="transition bg-teal-600 hover:bg-teal-500 text-white font-bold py-2 px-4 rounded">Reset</button>
+                <button id="nextBtn" class="transition hover:bg-teal-500 text-white font-bold py-2 px-4 rounded-full hidden">👉</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
