@@ -45,16 +45,16 @@ function drawBoard() {
             if (j === 0) {
                 // First cell in the row
                 if (i === latestBoard.length - 1) {
-                    cell.classList.add('border-r-[3px]', 'border-gray-500');
+                    cell.classList.add('border-gray-500');
                 } else {
-                    cell.classList.add('border-r-[3px]', 'border-b-[3px]', 'border-gray-500');
+                    cell.classList.add('border-b-[3px]', 'border-gray-500');
                 }
             } else if (j === latestBoard[i].length - 1) {
                 // Last cell in the row
                 if (i === latestBoard.length - 1) {
-                    cell.classList.add('border-l-[3px]', 'border-gray-500');
+                    cell.classList.add('border-gray-500');
                 } else {
-                    cell.classList.add('border-l-[3px]', 'border-b-[3px]', 'border-gray-500');
+                    cell.classList.add('border-b-[3px]', 'border-gray-500');
                 }
             } else {
                 // Middle cells
