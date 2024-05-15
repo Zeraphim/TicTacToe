@@ -554,20 +554,8 @@ video {
   --tw-contain-style:  ;
 }
 
-.absolute {
-  position: absolute;
-}
-
 .z-30 {
   z-index: 30;
-}
-
-.z-20 {
-  z-index: 20;
-}
-
-.z-50 {
-  z-index: 50;
 }
 
 .flex {
@@ -588,10 +576,6 @@ video {
 
 .h-\[51vh\] {
   height: 51vh;
-}
-
-.h-screen {
-  height: 100vh;
 }
 
 .max-h-screen {
@@ -721,16 +705,16 @@ video {
   background-color: rgb(13 148 136 / var(--tw-bg-opacity));
 }
 
-.p-12 {
-  padding: 3rem;
-}
-
 .p-5 {
   padding: 1.25rem;
 }
 
 .p-8 {
   padding: 2rem;
+}
+
+.p-12 {
+  padding: 3rem;
 }
 
 .px-4 {
